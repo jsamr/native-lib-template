@@ -1,5 +1,5 @@
 {
-  "name": "plugins-project",
+  "name": "example-project",
   "private": true,
   "scripts": {
     "demo": "yarn workspace demo",
