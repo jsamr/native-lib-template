@@ -57,7 +57,7 @@
     "react-native": "*"
   },
   "author": "Jules Sam. Randolph <jules.sam.randolph@gmail.com> (https://github.com/jsamr)",
-  "homepage": "https://github.com/native-html/plugins/tree/master/packages/example-path#readme",
+  "homepage": "https://github.com/example-project/tree/master/packages/example-path#readme",
   "license": "MIT",
   "repository": {
     "type": "git",
