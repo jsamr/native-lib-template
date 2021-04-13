@@ -3230,9 +3230,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@release-it/conventional-changelog@patch:@release-it/conventional-changelog@2.0.0#patches/@release-it-conventional-changelog.patch::locator=plugins-project%40workspace%3A.":
+"@release-it/conventional-changelog@patch:@release-it/conventional-changelog@2.0.0#patches/@release-it-conventional-changelog.patch::locator=example-project%40workspace%3A.":
   version: 2.0.0
-  resolution: "@release-it/conventional-changelog@patch:@release-it/conventional-changelog@npm%3A2.0.0#patches/@release-it-conventional-changelog.patch::version=2.0.0&hash=6e3e22&locator=plugins-project%40workspace%3A."
+  resolution: "@release-it/conventional-changelog@patch:@release-it/conventional-changelog@npm%3A2.0.0#patches/@release-it-conventional-changelog.patch::version=2.0.0&hash=6e3e22&locator=example-project%40workspace%3A."
   dependencies:
     concat-stream: ^2.0.0
     conventional-changelog: ^3.1.23
@@ -6958,6 +6958,24 @@ __metadata:
   peerDependencies:
     react: "*"
     react-native: "*"
+  languageName: unknown
+  linkType: soft
+
+"example-project@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "example-project@workspace:."
+  dependencies:
+    "@commitlint/cli": ^12.1.1
+    "@commitlint/config-conventional": ^12.1.1
+    "@formidable-webview/eslint-config-webjs": ^1.0.0
+    "@react-native-community/eslint-config": ^2.0.0
+    "@typescript-eslint/eslint-plugin": ^4.21.0
+    "@typescript-eslint/parser": ^4.21.0
+    eslint: ^7.23.0
+    eslint-plugin-compat: ^3.9.0
+    eslint-plugin-tsdoc: ^0.2.11
+    husky: ^6.0.0
+    prettier: ^2.2.1
   languageName: unknown
   linkType: soft
 
@@ -12588,24 +12606,6 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"plugins-project@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "plugins-project@workspace:."
-  dependencies:
-    "@commitlint/cli": ^12.1.1
-    "@commitlint/config-conventional": ^12.1.1
-    "@formidable-webview/eslint-config-webjs": ^1.0.0
-    "@react-native-community/eslint-config": ^2.0.0
-    "@typescript-eslint/eslint-plugin": ^4.21.0
-    "@typescript-eslint/parser": ^4.21.0
-    eslint: ^7.23.0
-    eslint-plugin-compat: ^3.9.0
-    eslint-plugin-tsdoc: ^0.2.11
-    husky: ^6.0.0
-    prettier: ^2.2.1
-  languageName: unknown
-  linkType: soft
-
 "pngjs@npm:^3.0.0, pngjs@npm:^3.3.0, pngjs@npm:^3.3.3":
   version: 3.4.0
   resolution: "pngjs@npm:3.4.0"
@@ -13399,9 +13399,9 @@ release-it@14.6.0:
   languageName: node
   linkType: hard
 
-"release-it@patch:release-it@14.6.0#patches/release-it.patch::locator=plugins-project%40workspace%3A.":
+"release-it@patch:release-it@14.6.0#patches/release-it.patch::locator=example-project%40workspace%3A.":
   version: 14.6.0
-  resolution: "release-it@patch:release-it@npm%3A14.6.0#patches/release-it.patch::version=14.6.0&hash=6ea2c8&locator=plugins-project%40workspace%3A."
+  resolution: "release-it@patch:release-it@npm%3A14.6.0#patches/release-it.patch::version=14.6.0&hash=6ea2c8&locator=example-project%40workspace%3A."
   dependencies:
     "@iarna/toml": 2.2.5
     "@octokit/rest": 18.5.2
