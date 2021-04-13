@@ -14,7 +14,7 @@ jsamr's template for react-native libraries
    package in `packages/` directory.
 4. In the new package folder, go to the `README.md`, `example-path` and `package.json` and do:
   * Replace any instance of `example-project` with the github path;
-  * Replace any instance of `example-npm` with the npm package name.
+  * Replace any instance of `@jsamr/example-npm` with the npm package name.
   * Replace any instance of `example-path` with the folder name hosting the
     package in `packages` directory.
 5. In the new package folder, go to the `package.json`

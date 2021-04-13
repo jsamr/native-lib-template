@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "demo": "yarn workspace demo",
-    "example-path": "yarn workspace example-npm"
+    "example-path": "yarn workspace @jsamr/example-npm"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.1",

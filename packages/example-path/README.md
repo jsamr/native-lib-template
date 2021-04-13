@@ -1,9 +1,9 @@
-<h1 align="center">example-npm</h1>
+<h1 align="center">@jsamr/example-npm</h1>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/example-npm"
+  <a href="https://www.npmjs.com/package/@jsamr/example-npm"
     ><img
-      src="https://img.shields.io/npm/v/example-npm"
+      src="https://img.shields.io/npm/v/@jsamr/example-npm"
       alt="npm"
   /></a>
   <a href="https://semver.org/spec/v2.0.0.html"
@@ -22,18 +22,12 @@
       src="https://github.com/example-project/workflows/example-path/badge.svg?branch=master"
       alt="CI"
   /></a>
-  <a href="https://www.npmjs.com/package/example-npm">
+  <a href="https://www.npmjs.com/package/@jsamr/example-npm">
     <img
-      src="https://img.shields.io/npm/dm/example-npm.svg"
+      src="https://img.shields.io/npm/dm/@jsamr/example-npm.svg"
       alt="DL/month"
     />
   </a>
-  <!-- <a href="https://discord.gg/3B9twTMEzb">
-      <img
-      src="https://img.shields.io/discord/736906960041148476?label=discord"
-      alt="Discord"
-    />
-  </a> -->
 </p>
 
 <p align="center">
@@ -43,9 +37,9 @@
 <hr/>
 
 ```sh
-npm add --save example-npm
+npm add --save @jsamr/example-npm
 ```
 
 ```sh
-yarn add example-npm
+yarn add @jsamr/example-npm
 ```

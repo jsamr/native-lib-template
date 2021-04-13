@@ -1,5 +1,5 @@
 {
-  "name": "example-npm",
+  "name": "@jsamr/example-npm",
   "version": "0.0.0",
   "description": "*",
   "main": "lib/commonjs/index.js",
