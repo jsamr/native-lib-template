@@ -2774,6 +2774,41 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@jsamr/example-npm@workspace:packages/example-path":
+  version: 0.0.0-use.local
+  resolution: "@jsamr/example-npm@workspace:packages/example-path"
+  dependencies:
+    "@babel/cli": ^7.13.14
+    "@babel/core": ^7.13.15
+    "@babel/plugin-transform-react-jsx": ^7.13.12
+    "@babel/preset-typescript": ^7.13.0
+    "@babel/runtime": ^7.13.10
+    "@microsoft/api-documenter": ^7.12.20
+    "@microsoft/api-extractor": 7.13.4
+    "@release-it/conventional-changelog": ^2.0.0
+    "@testing-library/react-native": ^7.2.0
+    "@tsconfig/react-native": ^1.0.3
+    "@types/jest": ^26.0.22
+    "@types/react": ^17.0.3
+    "@types/react-native": ^0.64.2
+    "@types/react-test-renderer": ^17.0.1
+    babel-jest: ^26.6.3
+    eslint: ^7.23.0
+    jest: ^26.6.3
+    metro-react-native-babel-preset: ^0.65.2
+    metro-react-native-babel-transformer: ^0.65.2
+    react: 17.0.2
+    react-native: ^0.64.0
+    react-native-builder-bob: ^0.18.1
+    react-test-renderer: 17.0.2
+    release-it: ^14.3.0
+    typescript: ~4.2.4
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  languageName: unknown
+  linkType: soft
+
 "@mdn/browser-compat-data@npm:^2.0.7":
   version: 2.0.7
   resolution: "@mdn/browser-compat-data@npm:2.0.7"
@@ -6925,41 +6960,6 @@ __metadata:
   checksum: fa1a206c4e4e8e427542f7fdfa10bd073a4ddf2510fb22e2f9a33b9aa7a0d5669bffba9b889e22d8c1c976af51a92dab274845e58d626ddb2d3563ed4d5d50dc
   languageName: node
   linkType: hard
-
-"example-npm@workspace:packages/example-path":
-  version: 0.0.0-use.local
-  resolution: "example-npm@workspace:packages/example-path"
-  dependencies:
-    "@babel/cli": ^7.13.14
-    "@babel/core": ^7.13.15
-    "@babel/plugin-transform-react-jsx": ^7.13.12
-    "@babel/preset-typescript": ^7.13.0
-    "@babel/runtime": ^7.13.10
-    "@microsoft/api-documenter": ^7.12.20
-    "@microsoft/api-extractor": 7.13.4
-    "@release-it/conventional-changelog": ^2.0.0
-    "@testing-library/react-native": ^7.2.0
-    "@tsconfig/react-native": ^1.0.3
-    "@types/jest": ^26.0.22
-    "@types/react": ^17.0.3
-    "@types/react-native": ^0.64.2
-    "@types/react-test-renderer": ^17.0.1
-    babel-jest: ^26.6.3
-    eslint: ^7.23.0
-    jest: ^26.6.3
-    metro-react-native-babel-preset: ^0.65.2
-    metro-react-native-babel-transformer: ^0.65.2
-    react: 17.0.2
-    react-native: ^0.64.0
-    react-native-builder-bob: ^0.18.1
-    react-test-renderer: 17.0.2
-    release-it: ^14.3.0
-    typescript: ~4.2.4
-  peerDependencies:
-    react: "*"
-    react-native: "*"
-  languageName: unknown
-  linkType: soft
 
 "example-project@workspace:.":
   version: 0.0.0-use.local
